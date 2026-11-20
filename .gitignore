@@ -1,0 +1,6 @@
+# Per-user setup and generated art
+config.json
+characters/
+__pycache__/
+*.pyc
+.claude/settings.local.json

@@ -1,0 +1,6 @@
+{
+  "_comment": "Prompt templates per action, shared by every character. No animations ship by default: add your own with `python pipeline/setup.py action ...` (see docs/PIPELINE.md). Slots: {pose} and {motion} come from the character's entry for the action, {background} from the character, {style} and {facing} from config.json. Optional 'pose_from': '<other action>' reuses that action's pose image instead of making a new one. 'clean' is the built-in background-removal step, not an animation.",
+  "clean": {
+    "image": "Remove the background completely. Keep the character exactly as in the image: same pose, same {style} style, same colors, outfit, props and effects. Only the character, full body, nothing else from the scene, no people or objects behind. {background}, no shadow."
+  }
+}

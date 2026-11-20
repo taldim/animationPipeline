@@ -1,0 +1,12 @@
+{
+  "name": "Grok Imagine",
+  "url": "https://grok.com/imagine",
+  "steps": "providers/grok.md",
+  "image_download": "grok-image-{id}.jpg",
+  "video_download": "grok-video-{id}.mp4",
+  "image_id": "post id: the part after /imagine/post/ in the image post URL",
+  "video_id": "conversation id: the value of ?conversation= in the video post URL",
+  "video_seconds": 6,
+  "video_resolution": "720p",
+  "wide_aspect": "16:9"
+}
